@@ -1,0 +1,22 @@
+
+{
+    "name": "welkum/wp-vue-kickstart",
+    "description": "An WordPress plugin starter with Vue Js.",
+    "authors": [
+        {
+            "name": "You",
+            "email": "test@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WPVK\\Admin\\": "admin/",
+            "WPVK\\Frontend\\": "frontend/",
+            "WPVK\\Includes\\": "includes/",
+            "WPVK\\Api\\": "api/"
+        }
+    },
+    "require-dev": {
+    }
+}
